@@ -1,0 +1,23 @@
+actions folder - we will save here the action of program
+assets - we will save here the images and css of our program
+classes - We will save all our class files (properties and methods)
+views - We will save here the htmls and bootstraps code
+
+
+
+<?php
+
+/**
+  include "../classes/User.php";
+
+  #create an object
+  $user_obj = new User;
+
+  #call the getUserDetail() from User.php
+  $user_detail = $user_obj->getUserDetail();
+  
+  while ($user = $user_detail->fetch_assoc()){
+    print_r($user);
+  }
+  */
+?>
